@@ -11,8 +11,6 @@ public class Employee{
     private double hourlyWage;
     private double unpaidHours;
     11. I added Private String fullname;
-    13. private double claculatePay()
-    14.public void paySalary()
     
     public Employee(String fullname, int yearOfBirth, double hourlyWage){
         this.fullname = fullname;
@@ -43,13 +41,13 @@ public class Employee{
      * Returns the net pay for the outstanding unpaid hours
      */
     private double calculatePay(){
-        // to be completed
+        13. private double claculatePay()
     }
 
     /*
      * Output the payment record and resets unpaid hours
      */
     public void paySalary(){
-        // to be completed
+        14.public void paySalary()
     }
 }
