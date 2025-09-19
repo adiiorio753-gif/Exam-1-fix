@@ -10,7 +10,6 @@ public class Employee{
     private boolean onLeave;
     private double hourlyWage;
     private double unpaidHours;
-    11. I added Private String fullname;
     
     public Employee(String fullname, int yearOfBirth, double hourlyWage){
         this.fullname = fullname;
@@ -19,6 +18,19 @@ public class Employee{
         onLeave = false;
         unpaidHours = 0.0;
     }
+    
+    /**
+     * 
+     */
+    public void SetName(){
+        SetName 
+    }
+    
+    
+    
+    
+    
+    
     
     /**
      * Returns true is an employee is above 16 years old
@@ -48,6 +60,6 @@ public class Employee{
      * Output the payment record and resets unpaid hours
      */
     public void paySalary(){
-        14.public void paySalary()
+        
     }
 }
