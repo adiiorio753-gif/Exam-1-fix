@@ -10,7 +10,10 @@ public class Employee{
     private boolean onLeave;
     private double hourlyWage;
     private double unpaidHours;
-
+    11. I added Private String fullname;
+    13. private double claculatePay()
+    14.public void paySalary()
+    
     public Employee(String fullname, int yearOfBirth, double hourlyWage){
         this.fullname = fullname;
         this.yearOfBirth = yearOfBirth;
@@ -31,7 +34,9 @@ public class Employee{
      */
     public boolean canDrive(){
         int age = calculateAge(2025);
-        return (currentYear) - yearOfBirth);
+        if age is greater or less then employee has right to drive
+        return (currentYear - yearOfBirth);
+        
     }
 
     /*
