@@ -31,7 +31,7 @@ public class Employee{
      */
     public boolean canDrive(){
         int age = calculateAge(2025);
-        // to be completed
+        return (currentYear) - yearOfBirth);
     }
 
     /*
